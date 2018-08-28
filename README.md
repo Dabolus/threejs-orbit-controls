@@ -3,12 +3,12 @@
 Little update to Orbit Controls from three.js to support ES6 modules
 
 ## Install
-`npm i orbit-controls-es6 --save`
+`npm i threejs-orbit-controls --save`
 
 
 ## Example
 ```js
-import OrbitControls from 'orbit-controls-es6';
+import OrbitControls from 'threejs-orbit-controls';
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enabled = true;
