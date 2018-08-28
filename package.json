@@ -1,6 +1,6 @@
 {
   "name": "threejs-orbit-controls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Threejs orbit controls update for ES6",
   "main": "dist/threejs-orbit-controls.cjs.js",
   "module": "dist/threejs-orbit-controls.esm.js",
