@@ -25,11 +25,11 @@ import {
 } from 'three';
 
 let passiveOpts = false;
-addEventListener('', null, { get passive() { passiveOpts = { passive: true }} });
 
 export default class OrbitControls extends EventDispatcher {
   constructor(object, domElement) {
     super();
+    addEventListener('', null, { get passive() { passiveOpts = { passive: true }} });
 
     this.object = object;
 
