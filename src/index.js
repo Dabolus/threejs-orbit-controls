@@ -797,7 +797,6 @@ export default class OrbitControls extends EventDispatcher {
 
       if ( scope.enabled === false || scope.enableZoom === false || ( state !== STATE.NONE && state !== STATE.ROTATE ) ) return;
 
-      event.preventDefault();
       event.stopPropagation();
 
       scope.dispatchEvent( startEvent );
@@ -819,8 +818,6 @@ export default class OrbitControls extends EventDispatcher {
     function onTouchStart( event ) {
 
       if ( scope.enabled === false ) return;
-
-      event.preventDefault();
 
       switch ( event.touches.length ) {
 
@@ -862,7 +859,6 @@ export default class OrbitControls extends EventDispatcher {
 
       if ( scope.enabled === false ) return;
 
-      event.preventDefault();
       event.stopPropagation();
 
       switch ( event.touches.length ) {
